@@ -1,0 +1,10 @@
+<!-- res/drawable/rounded_border.xml -->
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <solid android:color="#FFFFFF"/> <!-- Background color -->
+    <corners android:radius="16dp"/> <!-- Corner radius for rounded edges -->
+    <stroke
+        android:color="#000000"
+    />
+</shape>

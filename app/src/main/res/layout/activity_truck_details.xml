@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Truck Details -->
+    <TextView
+        android:id="@+id/tvTruckId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truck ID:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time:"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area:"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KM:"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvRunHrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Hrs:"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed:"
+        android:layout_marginTop="4dp"
+        />
+
+    <!-- Map -->
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>

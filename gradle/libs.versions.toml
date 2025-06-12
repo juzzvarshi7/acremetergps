@@ -1,0 +1,98 @@
+[versions]
+activityKtx = "1.10.1"
+agp = "8.9.3"
+converterGson = "2.9.0"
+credentials = "1.5.0"
+credentialsPlayServicesAuth = "1.5.0"
+firebaseBom = "33.15.0"
+gms-auth = "21.3.0"
+githubAnychartAndroid = "40a76dfb6e"
+githubAnychartAndroidVersion = "1.1.5"
+google_id = "1.1.1"
+googleServices = "4.4.2"
+gradle = "7.4.2"
+gson = "2.10.1"
+itext7Core = "7.1.15"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.1"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+anychartAndroidVersion = "1.1.2"
+firebaseAuth = "23.2.1"
+firebaseFirestore = "25.1.4"
+mpandroidchart = "v3.1.0"
+osmdroidAndroid = "6.1.16"
+osmdroidWms = "6.1.16"
+playServicesAuth = "21.3.0"
+googleid = "1.1.1"
+playServicesAuthIdentity = "21.0.0"
+playServicesAuthVersion = "21.3.0"
+playServicesMapsVersion = "19.2.0"
+recyclerviewVersion = "1.3.2"
+retrofit = "2.9.0"
+roomCompiler = "2.7.1"
+roomRuntime = "2.7.1"
+supportAnnotations = "28.0.0"
+volley = "1.2.1"
+williamchart = "3.10.1"
+playServicesLocation = "21.3.0"
+playServicesMaps = "19.2.0"
+recyclerview = "1.4.0"
+media3Common = "1.7.1"
+
+[libraries]
+activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+anychart = { module = "com.github.AnyChart:AnyChart-Android", version.ref = "anychartAndroidVersion" }
+anychart-android = "com.anychart:anychart-android:1.2.2"
+anychart-android-v115 = { module = "com.github.AnyChart:AnyChart-Android", version.ref = "githubAnychartAndroidVersion" }
+anychart-android-v40a76dfb6e = { module = "com.github.AnyChart:AnyChart-Android", version.ref = "githubAnychartAndroid" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+credentials = { module = "androidx.credentials:credentials", version.ref = "credentials" }
+credentials-play-services-auth = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "credentials" }
+credentials-play-services-auth-v130 = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "credentialsPlayServicesAuth" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+github-anychart-android = { module = "com.github.AnyChart:AnyChart-Android", version.ref = "anychartAndroidVersion" }
+gms-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "gms-auth" }
+google-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "google_id" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+itext7-core = { module = "com.itextpdf:itext7-core", version.ref = "itext7Core" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+osmdroid-android = { module = "org.osmdroid:osmdroid-android", version.ref = "osmdroidAndroid" }
+osmdroid-wms = { module = "org.osmdroid:osmdroid-wms", version.ref = "osmdroidWms" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+gms-auth-api-identity = { module = "com.google.android.gms:play-services-auth--identity", version.ref = "gms-auth" }
+google-googleid = { group = "com.google.android.libraries.identity.googleid", name = "googleid", version.ref = "googleid" }
+play-services-auth-api-identity-v2100 = { module = "com.google.android.gms:play-services-auth--identity", version.ref = "playServicesAuthIdentity" }
+play-services-auth-v111 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-identity = { module = "com.google.android.gms:play-services-identity" }
+play-services-maps-v1810 = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMapsVersion" }
+recyclerview-v132 = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerviewVersion" }
+retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+williamchart = { module = "com.diogobernardino:williamchart", version.ref = "williamchart" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+media3-common = { group = "androidx.media3", name = "media3-common", version.ref = "media3Common" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

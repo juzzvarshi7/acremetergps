@@ -1,0 +1,44 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">acremetergps</string>
+
+    <!-- Firebase Web Client ID -->
+    <string name="default_web_client_id">AIzaSyBIZWAnKWuC3VXOt6xgNerx-eTfqSYfLUk</string>
+
+    <!-- Login UI -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="btn_login_email">Login with Email</string>
+    <string name="btn_login_google">Login with Google</string>
+
+    <string name="status_not_connected">Status: Not Connected</string>
+    <string name="status_connected">Status: Connected to %1$s</string>
+
+    <!-- Toast & Error Messages -->
+    <string name="login_empty_fields">Please enter all fields</string>
+    <string name="login_invalid_email">Enter a valid email address</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="login_no_connection">No internet connection</string>
+    <string name="login_in_progress">Logging in</string>
+    <string name="google_login_failed">Google sign-in failed</string>
+    <string name="google_sign_in_null">Google sign-in returned null</string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="no_role_found">No role assigned. Contact admin.</string>
+    <string name="error_fetching_role">Error fetching user role</string>
+    <string name="enter_all_fields">Please enter all fields</string>
+    <string name="enter_valid_email">Enter a valid email address</string>
+    <string name="no_internet">No internet connection</string>
+
+    <string name="f1">Enter Site</string>
+    <string name="f2">Enter Date/Time</string>
+    <string name="f3">Enter Mobile Number</string>
+    <string name="f4">Enter Server IP</string>
+    <string name="f5">Enter Pressure Range</string>
+    <string name="f6">Enter Flow Range</string>
+    <string name="f7">Enter Tamper Type</string>
+    <string name="f8">SMS Alt Time</string>
+    <string name="btn_save_config">Save Configuration</string>
+
+</resources>
