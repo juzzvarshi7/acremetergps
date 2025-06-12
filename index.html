@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AcreMeter GPS App | Wolg</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Outfit:wght@400;600;700&display=swap');
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(to bottom right, #0f172a, #1e293b);
+      color: #e2e8f0;
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #4ade80, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .section-box {
+      @apply bg-slate-800/50 backdrop-blur-md p-6 rounded-2xl shadow-lg transition hover:scale-[1.01] hover:shadow-2xl;
+    }
+    .tag {
+      @apply bg-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" class="max-w-5xl mx-auto py-14 px-6">
+    <h1 class="text-5xl font-bold gradient-text mb-6 text-center">🌾 AcreMeter GPS App</h1>
+    <p class="text-lg mb-10 text-center text-slate-300">A high-performance Android GPS tracking application built during internship at <strong>Sun Industrial Automation & Solutions Pvt. Ltd.</strong> by <strong>Wolg</strong>.</p>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-16">
+      <div class="section-box">
+        <h2 class="text-2xl font-semibold text-green-400 mb-2">📅 Internship Duration</h2>
+        <p class="text-slate-300">4th April 2025 – 12th June 2025</p>
+      </div>
+      <div class="section-box">
+        <h2 class="text-2xl font-semibold text-green-400 mb-2">🛠 Tech Stack</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="tag">Java</span>
+          <span class="tag">Kotlin DSL</span>
+          <span class="tag">SQLite</span>
+          <span class="tag">OSMDroid</span>
+          <span class="tag">LocationManager</span>
+          <span class="tag">Retrofit</span>
+          <span class="tag">Flask</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Bluetooth</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-16">
+      <div class="section-box">
+        <h2 class="text-2xl font-semibold text-green-400 mb-3">📱 App Highlights</h2>
+        <ul class="list-disc list-inside space-y-2 text-slate-200">
+          <li><strong>Login & Dashboard</strong> — Kotlin DSL and SQLite for local authentication and UI routing.</li>
+          <li><strong>GPS Tracking</strong> — Built in Java using LocationManager to record routes and store them as TXT.</li>
+          <li><strong>Trip Replay</strong> — OSMDroid with animated polylines and a moving tractor icon.</li>
+          <li><strong>Sync to Device</strong> — Uses BluetoothSocket to transfer trip logs to connected hardware.</li>
+          <li><strong>Trip Data Viewer</strong> — Integrated with Flask API and MySQL using Retrofit for summary and logs.</li>
+          <li><strong>Trip Actions</strong> — Users can preview maps, download trip data as CSV, and view metadata.</li>
+        </ul>
+      </div>
+
+      <div class="section-box">
+        <h2 class="text-2xl font-semibold text-green-400 mb-3">📍 Trip Log Sample</h2>
+        <div class="bg-slate-900 rounded-xl p-4 text-sm font-mono text-green-300">
+<pre>Trip Start: 2025-06-10 08:00 AM
+Trip End:   2025-06-10 08:45 AM
+Distance:   5.6 km
+Start:      11.0192, 76.9826
+End:        11.0210, 76.9854
+Sync:       ✅ via Bluetooth
+Map:        OSMDroid + Polyline Replay</pre>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center text-sm mt-20 text-slate-500">
+      🚀 Developed by Wolg | AcreMeter Internship Project 2025
+    </footer>
+  </div>
+</body>
+</html>
